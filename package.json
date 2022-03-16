@@ -1,11 +1,12 @@
 {
   "name": "project-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "configure-husky": "npx husky install && husky set .husky/pre-commit \"npx --no-install lint-staged\" && husky set .husky/commit-msg \"npx --no-install commitlint --edit '$1'\"",
-    "lint": "npx lint-staged"
+    "lint": "npx lint-staged",
+    "release": "standard-version"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
@@ -44,6 +45,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.0",
     "lint-staged": "^12.3.5",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "standard-version": "^9.3.2"
   }
 }

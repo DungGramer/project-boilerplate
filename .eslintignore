@@ -4,4 +4,3 @@ build
 dist
 !package-lock.json
 !package.json
-.commitlintrc.js

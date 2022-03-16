@@ -1,10 +1,9 @@
 {
   "name": "project-boilerplate",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "configure-commitizen": "npx commitizen init cz-conventional-changelog --save-dev --save-exact",
     "lint": "npx lint-staged",
     "release": "standard-version",
     "commit": "cz"
@@ -36,7 +35,7 @@
     "project-boilerplate"
   ],
   "author": "DungGramer",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/DungGramer/project-boilerplate/issues"
   },
